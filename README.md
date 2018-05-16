@@ -19,12 +19,12 @@ npm install --save reiko-parser
 const PkgReader = require('reiko-parser');
 
 // for apk
-const reader = new PkgReader(filePath, 'apk', { searchResource: true, withIcon: true });
+const reader = new PkgReader(filePath, 'apk', { withIcon: true });
 reader.parse((err, pkgInfo) => {
   if (err) {
     console.error(err);
   } else {
-    console.log(pkgInfo); // pkgInfo.icon is encode to base64
+    console.log(pkgInfo); // pkgInfo.icon is encoded to base64
   }
 });
 
