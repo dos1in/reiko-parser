@@ -1,5 +1,5 @@
 # reiko-parser
-Read IOS/Android package's(.apk/.ipa ) manifest info, for NodeJS.
+Read IOS/Android package's (.apk/.ipa ) manifest info, for NodeJS.
 
 ## Introduction
 For `.apk`, parse the `AndroidManifest.xml` and `resources.arsc` files, read all values listed in AndroidManifest.xml(both primitive and reference type), also you can get and show the icon of the apk file directly from the parsed result.
