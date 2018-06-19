@@ -7,7 +7,7 @@ For `.apk`, parse the `AndroidManifest.xml` and `resources.arsc` files, read all
 For `.ipa`, parse the `info.plist` and `embedded.mobileprovision` files, read all basic information in info.plist file, including the icon of the ipa file(already handled the crushed pngs).
 
 ## Acknowledgements
-This project is based on [isomorphic-pkg-reader](https://github.com/TencentWSRD/isomorphic-pkg-reader/) & [adbkit-apkreader](https://github.com/openstf/adbkit-apkreader). 
+This project is based on [plist.js](https://github.com/TooTallNate/plist.js), [isomorphic-pkg-reader](https://github.com/TencentWSRD/isomorphic-pkg-reader/) & [adbkit-apkreader](https://github.com/openstf/adbkit-apkreader). 
 
 ## Install
 ```
