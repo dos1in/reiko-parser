@@ -1,6 +1,6 @@
 {
   "name": "reiko-parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Read IOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS.",
   "main": "index.js",
   "directories": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "buffer": "^5.1.0",
     "bytebuffer": "^5.0.1",
+    "cgbi-to-png": "^1.0.7",
     "debug": "^3.1.0",
     "isomorphic-unzip": "^1.1.0",
     "xmldom": "^0.1.27"
