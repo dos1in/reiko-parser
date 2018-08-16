@@ -1,6 +1,6 @@
 {
   "name": "reiko-parser",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Read IOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS.",
   "main": "./distribution/index.js",
   "directories": {
