@@ -1,6 +1,6 @@
 {
   "name": "reiko-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read iOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS.",
   "main": "./dist/index.js",
   "directories": {
@@ -16,11 +16,11 @@
     "url": "git+ssh://git@github.com/JChord/reiko-parser.git"
   },
   "dependencies": {
-    "buffer": "^5.2.1",
+    "buffer": "^5.4.3",
     "bytebuffer": "^5.0.1",
     "cgbi-to-png": "^1.0.7",
-    "isomorphic-unzip": "^1.1.5",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.1.27",
+    "yauzl": "^2.10.0"
   },
   "keywords": [
     "Javascript",
@@ -36,9 +36,9 @@
   },
   "homepage": "https://github.com/JChord/reiko-parser",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "eslint": "^6.1.0"
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "eslint": "^6.6.0"
   }
 }
