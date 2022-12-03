@@ -19,7 +19,7 @@
     "buffer": "^5.4.3",
     "bytebuffer": "^5.0.1",
     "cgbi-to-png": "^1.0.7",
-    "xmldom": "^0.1.27",
+    "xmldom": "^0.6.0",
     "yauzl": "^2.10.0"
   },
   "keywords": [
